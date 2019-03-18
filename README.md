@@ -4,7 +4,7 @@ Inspired by Mike Pound's video on Computerphile - https://www.youtube.com/watch?
 
 The video shows a Python implementation.  I created this to allow family, friends, and anyone who doesn't know how to program the ability to check their password without submitting their password to a website.
 
-Type your password into the program, click the check button and it will check with haveibeenpwned's archive to see if your password has been reported as collectd.
+Type your password into the program, click the check button and it will check with haveibeenpwned's archive to see if your password has been reported as collected by a bad person in a website breach.
 
 You can choose whether your password is masked or in clear text as you type it in.
 
