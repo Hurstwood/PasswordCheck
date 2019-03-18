@@ -18,8 +18,8 @@ Haveibeenpwned returns a list of all hashes that start with the same 5 character
 
 The program then checks if your password is in haveibeenpwned's archive by checking the remaining 30 characters of the hash against the list.
 
-If your password is present, it extracts the number of occurrences and prints to screen the results.
+If your password is present, it extracts the number of times it has been found and displays the results.
 
-If your password is not present, it informs you on screen.
+If your password is not present, it displays this.
 
 
