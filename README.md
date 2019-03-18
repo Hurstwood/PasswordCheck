@@ -16,7 +16,7 @@ Only the first 5 characters of the 35 SHA1 hash is sent to haveibeenpwned.
 
 Haveibeenpwned returns a list of all hashes that start with the same 5 characters.
 
-The program then checks if your password is in haveibeenpwned's archive by checking remaining 30 characters of the hash against the list.
+The program then checks if your password is in haveibeenpwned's archive by checking the remaining 30 characters of the hash against the list.
 
 If your password is present, it extracts the number of occurrences and prints to screen the results.
 
