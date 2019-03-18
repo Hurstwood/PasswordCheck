@@ -1,6 +1,7 @@
 # PasswordCheck
 A C# program to check passwords against haveibeenpwned.com archive.  
 Inspired by Mike Pound's video on Computerphile - https://www.youtube.com/watch?v=hhUb5iknVJs
+
 The video shows a Python implementation.  I created this to allow family, friends, and anyone who doesn't know how to program the ability to check their password without submitting their password to a website.
 
 Type your password into the program, click the check button and it will check with haveibeenpwned's archive to see if your password has been reported as collectd.
