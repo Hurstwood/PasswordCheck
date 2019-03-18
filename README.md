@@ -2,7 +2,7 @@
 A C# program to check passwords against haveibeenpwned.com archive.  
 Inspired by Mike Pound's video on Computerphile - https://www.youtube.com/watch?v=hhUb5iknVJs
 
-The video shows a Python implementation.  I created this to allow family, friends, and anyone who doesn't know how to program the ability to check their password without submitting their password to a website. A compiled executable that you can download and run has been uploaded - PasswordCheck.exe
+The video shows a Python implementation which is only suitable to people who have Python installed.  I created this to allow family, friends, and anyone who doesn't know how to program the ability to check their password without submitting their password to a website. A compiled executable that you can download and run has been uploaded - PasswordCheck.exe
 
 ## Summary
 
@@ -28,5 +28,13 @@ If your password is not present, it displays a simple message informing you of t
 
 
 Haveibeenpwned only allows one request every 1.5 seconds.  If you attempt to initiate a check within 1.5s of the last check, the program will wait until the period expires.
+
+## Important
+
+I don't have a code signing certificate. It costs a significant amount of money and i don't earn money from this.
+
+Therefore, Windows Defender Smartscreen will warn you about running this application since the code isn't digitally signed. It will pop up with a window titled "Windows protected your PC". Click "More info" and then "Run anyway" to run the application.
+
+If you don't trust me/the application - i don't blame you - you can inspect the code and build the project yourself.
 
 
